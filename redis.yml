@@ -1,0 +1,9 @@
+inputs:
+    - '/path/to/redis.so':
+        address: 127.0.0.1:6379
+        db: 0
+        key: t
+        password: ""
+        codec: json
+outputs:
+    - Stdout: {}
